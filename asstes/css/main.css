@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+text-decoration: none;
+}
+
+.header{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 21.84px 0;
+    
+}
+
+.list ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+
+}
+
+.icons ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.container{
+    width:calc(100% - 300px);
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 188px;
+}
+
