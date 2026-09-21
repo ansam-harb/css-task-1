@@ -38,11 +38,10 @@ text-decoration: none;
     width:calc(100% - 300px);
     margin: auto;
 }
-
 .row{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 188px;
+    justify-content: space-between;
 }
 
